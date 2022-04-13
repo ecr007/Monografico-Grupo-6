@@ -9,3 +9,5 @@ class Address(models.Model):
     zip_code = models.CharField(max_length=10)
     state = models.CharField(max_length=50)
     country = models.ForeignKey(Country, on_delete=models.CASCADE)
+    
+    
