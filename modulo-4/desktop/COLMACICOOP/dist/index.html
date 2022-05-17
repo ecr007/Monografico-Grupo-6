@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLMACICOOP</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!--NAV-->
+      <nav class="
+      fixed
+      w-full
+      flex flex-wrap
+      items-center
+      justify-between
+      py-4
+      bg-white
+      text-black
+      hover:text-[#45c95b]
+      shadow-lg
+      navbar navbar-expand-lg navbar-light
+      z-[100]
+      " >
+      <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6">
+      <button class="
+          navbar-toggler
+          text-black
+          border-0
+          hover:shadow-none hover:no-underline
+          py-2
+          px-2.5
+          bg-transparent
+          focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline
+        " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars"
+        class="w-6" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path fill="currentColor"
+          d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+        </path>
+      </svg>
+      </button>
+      <a class="lg: text-2xl text-[#45c95b] " href="#">COLMACICOOP</a>
+
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+      
+      <!-- Left links -->
+      <ul class="navbar-nav flex flex-col pl-0 list-style-none mr-auto">
+        <li class="nav-item pr-2">
+          <a class="nav-link bg-white
+          text-black
+          hover:text-[#45c95b] focus:text-[#45c95b] p-0 text-sm" href="#">INICIO</a>
+        </li>
+        <li class="nav-item pr-2">
+          <a class="nav-link bg-white
+          text-black
+          hover:text-[#45c95b] focus:text-[#45c95b] p-0 text-sm" href="#">SERVICIOS</a>
+        </li>
+        <li class="nav-item pr-2">
+          <a class="nav-link bg-white
+          text-black
+          hover:text-[#45c95b] focus:text-[#45c95b] p-0 text-sm" href="#">BENEFICIOS </a>
+        </li>
+        <li class="nav-item pr-2">
+          <a class="nav-link bg-white
+          text-black
+          hover:text-[#45c95b] focus:text-[#45c95b] p-0 text-sm" href="#">¿QUIENES SOMOS?</a>
+        </li>
+        <li class="nav-item pr-2">
+          <a class="nav-link bg-white
+          text-black
+          hover:text-[#45c95b] focus:text-[#45c95b] p-0" href="#">CONTACTO</a>
+        </li>
+      </ul>
+      <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+      </div>
+        </nav>
+      <!--NAV-->
+     <!--carousel-->
+    <div id="carouselExampleCaptions" class="carousel slide relative" data-bs-ride="carousel">
+        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+       
+        </div>
+        <div class="carousel-inner relative w-full overflow-hidden">
+       
+        </div> 
+        <button
+          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--carousel-->
+  
+
+
+      <!-- component -->
+<div class=" grid gap-y-10 lg:grid lg:grid-cols-3 bg-[#f7f7f7]">
+    <div class="flex justify-center lg:mt-20 lg:mb-20">
+      <div class="flex flex-col justify-center p-6 shadow-lg  bg-white max-w-sm text-center">
+        <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2"></h5>
+        <div class="inline-block">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-lines-fill inline-block text-[#45c95b]" viewBox="0 0 16 16">
+            <path class="text-center" d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+          </svg>
+        </div>
+        <p class="text-gray-700 text-base mb-4">
+          
+          Llenar formulario de inscripción
+        </p>
+        <button type="button" class=" inline-block px-6 py-2.5 bg-[#45c95b] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#11912d] hover:shadow-lg focus:bg-[#11912d] focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out" data-bs-toggle="modal" data-bs-target="#exampleModal">IR</button>
+      </div>
+    </div>
+  
+    <div class="flex justify-center lg:mt-20 lg:mb-20 ">
+      <div class="flex flex-col justify-center  p-6  shadow-lg bg-white max-w-sm text-center">
+        <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2"></h5>
+  
+        <div class="inline-block">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-clock-fill inline-block text-[#45c95b]" viewBox="0 0 16 16">
+          <path class="text-center" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+        </svg>
+      </div>
+        <p class="text-gray-700 text-base mb-4">
+        Horarios de Servicios
+        </p>
+        <p class="text-gray-700 text-base mb-4">
+          Lunes a Viernes 8 AM - 5 PM
+          </p>
+          <p class="text-gray-700 text-base mb-4">
+            SABADO 8 AM - 12PM
+            </p>
+        
+      </div>
+  </div>
+  
+
+  <div class="flex justify-center lg:mt-20 lg:mb-20">
+    <div class="flex flex-col justify-center  p-6  shadow-lg bg-white max-w-sm text-center">
+      <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2"></h5>
+      <p class="text-gray-700 text-base mb-4">
+        <div class="inline-block">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-question-lg inline-block text-[#45c95b]" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M4.475 5.458c-.284 0-.514-.237-.47-.517C4.28 3.24 5.576 2 7.825 2c2.25 0 3.767 1.36 3.767 3.215 0 1.344-.665 2.288-1.79 2.973-1.1.659-1.414 1.118-1.414 2.01v.03a.5.5 0 0 1-.5.5h-.77a.5.5 0 0 1-.5-.495l-.003-.2c-.043-1.221.477-2.001 1.645-2.712 1.03-.632 1.397-1.135 1.397-2.028 0-.979-.758-1.698-1.926-1.698-1.009 0-1.71.529-1.938 1.402-.066.254-.278.461-.54.461h-.777ZM7.496 14c.622 0 1.095-.474 1.095-1.09 0-.618-.473-1.092-1.095-1.092-.606 0-1.087.474-1.087 1.091S6.89 14 7.496 14Z"/>
+        </svg>
+      </div>
+        PREGUNTAS FRECUENTES
+      </p>
+      <button type="button" class=" inline-block px-6 py-2.5 bg-[#45c95b] text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-[#11912d] hover:shadow-lg focus:bg-[#11912d] focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out">IR</button>
+    </div>
+  </div>
+</div>
+
+      
+<!-- servicios -->
+<div class="py-12 bg-[#45c95b]" >
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="lg:text-center">
+      <h2 class=" text-white tracking-wide uppercase text-3xl font-bold">Servicios</h2>
+     
+      
+    </div>
+
+    <div class="mt-10">
+      <dl id="d_l" class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+       
+      </dl>
+    </div>
+  </div>
+</div>
+<!-- This example requires Tailwind CSS v2.0+ service -->
+
+<!--beneficios-->
+<section class="text-gray-600 body-font " >
+  <div class="container px-5 py-24 mx-auto">
+    <div class="text-center mb-20">
+      <h1 class="sm:text-3xl text-center title-font text-3xl font-bold text-[#45c95b] ">BENEFICIOS</h1>
+    </div>
+    <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-[#45c95b] w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Authentic Cliche Forage</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-[#45c95b] w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Kinfolk Chips Snackwave</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-[#45c95b] w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Coloring Book Ethical</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-[#45c95b] w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Typewriter Polaroid Cray</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-[#45c95b] w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">Pack Truffaut Blue</span>
+        </div>
+      </div>
+      <div class="p-2 sm:w-1/2 w-full">
+        <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" class="text-[#45c95b] w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+            <path d="M22 4L12 14.01l-3-3"></path>
+          </svg>
+          <span class="title-font font-medium">The Catcher In The Rye</span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+<!--beneficios-->
+
+<!-- contacto -->
+<div class="container my-24 px-6 mx-auto" >
+
+  <!-- Section: Design Block -->
+  <section class="mb-32 text-gray-800">
+    <div class="flex flex-wrap">
+      <div id="contacto" class="grow-0 shrink-0 basis-auto mb-6 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
+        <h2 class="text-3xl font-bold  text-[#45c95b] mb-6">CONTACTO</h2>
+      
+        <p class="text-gray-500 mb-2">New York, 94126, United States</p>
+        
+        <p class="text-gray-500 mb-2">info@gmail.com</p>
+      </div>
+      <div class="grow-0 shrink-0 basis-auto mb-12 md:mb-0 w-full md:w-6/12 px-3 lg:px-6">
+        <form id="enviarContacto">
+          <div class="form-group mb-6">
+            <input type="text" id="nombre" class="form-control block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white bg-clip-padding
+              border border-solid border-[#45c95b]
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-gray-700  focus:outline-none" id="exampleInput7"
+              placeholder="Name">
+          </div>
+          <div class="form-group mb-6">
+            <input type="email" id="email" class="form-control block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-[#1f5a28]
+              bg-white bg-clip-padding
+              border border-solid border-[#1f5a28]
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-[#1e4224] focus:bg-white focus:border-[#1f4b26] focus:outline-none" id="exampleInput8"
+              placeholder="Email">
+          </div>
+          <div class="form-group mb-6">
+            <input type="tel" id="tel" class="form-control block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-[#1f5a28]
+              bg-white bg-clip-padding
+              border border-solid border-[#1f5a28]
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-[#1e4224] focus:bg-white focus:border-[#1f4b26] focus:outline-none" id="exampleInput8"
+              placeholder="Tel">
+          </div>
+          <div class="form-group mb-6">
+            <textarea id="mensaje" class="
+              form-control
+              block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white bg-clip-padding
+              border border-solid border-[#45c95b]
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-[#18351d] focus:bg-[#14441c] focus:border-[#114119] focus:outline-none
+            " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
+          </div>
+         
+          <button type="submit" id="enviar" class="
+            w-full
+            px-6
+            py-2.5
+            bg-[#45c95b]
+            text-white
+            font-medium
+            text-xs
+            leading-tight
+            uppercase
+            rounded
+            shadow-md
+            hover:bg-[#113517] hover:shadow-lg
+            focus:bg-[#113517] focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-[#113517] active:shadow-lg
+            transition
+            duration-150
+            ease-in-out">ENVIAR</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+
+</div>
+<!-- Container for demo purpose -->
+
+
+
+<!--question-->
+ <div class="contenedor flex justify-center pb-20">
+  <div class="accordion w-9/12" id="accordionExample">
+    <p class="sm:text-3xl text-center title-font mb-3 text-3xl font-bold text-[#45c95b]">Pregustas más frecuentes</p>
+    <div id="contenedor-items-question">
+    <div class="accordion-item bg-white border border-gray-200">
+      <h2 class="accordion-header mb-0" id="headingOne">
+        <button class="
+          accordion-button
+          relative
+          flex
+          items-center
+          w-full
+          py-4
+          px-5
+          text-base text-gray-800 text-left
+          bg-white
+          border-0
+          rounded-none
+          transition
+          focus:outline-none
+         
+        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+          aria-controls="collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body py-4 px-5">
+          <strong>This is the first item's accordion body.</strong> It is shown by default,
+          until the collapse plugin adds the appropriate classes that we use to style each
+          element. These classes control the overall appearance, as well as the showing and
+          hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+          our default variables. It's also worth noting that just about any HTML can go within
+          the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item bg-white border border-gray-200">
+      <h2 class="accordion-header mb-0" id="headingTwo">
+        <button class="
+          accordion-button
+          collapsed
+          relative
+          flex
+          items-center
+          w-full
+          py-4
+          px-5
+          text-base text-gray-800 text-left
+          bg-white
+          border-0
+          rounded-none
+          transition
+          focus:outline-none
+        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+          aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body py-4 px-5">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default,
+          until the collapse plugin adds the appropriate classes that we use to style each
+          element. These classes control the overall appearance, as well as the showing and
+          hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+          our default variables. It's also worth noting that just about any HTML can go within
+          the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item bg-white border border-gray-200">
+      <h2 class="accordion-header mb-0" id="headingThree">
+        <button class="
+          accordion-button
+          collapsed
+          relative
+          flex
+          items-center
+          w-full
+          py-4
+          px-5
+          text-base text-gray-800 text-left
+          bg-white
+          border-0
+          rounded-none
+          transition
+          focus:outline-none
+        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+          aria-controls="collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+        data-bs-parent="#accordionExample">
+        <div class="accordion-body py-4 px-5">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default,
+          until the collapse plugin adds the appropriate classes that we use to style each
+          element. These classes control the overall appearance, as well as the showing and
+          hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+          our default variables. It's also worth noting that just about any HTML can go within
+          the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+ </div>
+<!--question-->
+
+<!-- Modal -->
+<div class="modal fade fixed top-0 left-0 hidden w-full h-full outline-none overflow-x-hidden overflow-y-auto"
+  id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog relative w-auto pointer-events-none">
+    <div
+      class="modal-content border-none shadow-lg relative flex flex-col w-full pointer-events-auto bg-white bg-clip-padding rounded-md outline-none text-current">
+      <div
+        class="modal-header flex flex-shrink-0 items-center justify-between p-4 border-b border-gray-200 rounded-t-md">
+        <h5 class="text-xl font-medium leading-normal text-gray-800" id="exampleModalLabel">Formulario de inscripción</h5>
+        <button type="button"
+          class="btn-close box-content w-4 h-4 p-1 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline"
+          data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body relative p-4">
+        <form id="enviar-inscripcion">
+            <div class="form-group mb-6">
+              <input id="nombre" type="text" name="nombre" class="form-control
+                block
+                w-full
+                px-3
+                py-1.5
+                text-base
+                font-normal
+                text-gray-700
+                bg-white bg-clip-padding
+                border border-solid border-rose-500 
+                rounded
+                transition
+                ease-in-out
+                m-0
+                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput123"
+                aria-describedby="emailHelp123" placeholder="Nombre Completo">
+                <span class="text-center block text-red-500 nombre"></span>
+            </div>
+            <div class="form-group mb-6">
+              <input id="cedula" type="text" name="cedula" class="form-control
+                w-full
+                px-3
+                py-1.5
+                text-base
+                font-normal
+                text-gray-700
+                bg-white bg-clip-padding
+                border border-solid border-gray-300
+                rounded
+                transition
+                ease-in-out
+                m-0
+                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput124"
+                aria-describedby="emailHelp124" placeholder="Cédula">
+                <span class="text-center block text-red-500 cedula"></span>
+            </div>
+          
+          <div class="form-group mb-6">
+            <input id="telefono" type="tel" name="telefono" class="form-control block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white bg-clip-padding
+              border border-solid border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput125"
+              placeholder="Teléfono">
+              <span class="text-center block text-red-500 telefono"></span>
+          </div>
+          <div class="form-group mb-6">
+            <input id="celular" type="tel" name="celular" class="form-control block
+              w-full
+              px-3
+              py-1.5
+              text-base
+              font-normal
+              text-gray-700
+              bg-white bg-clip-padding
+              border border-solid border-gray-300
+              rounded
+              transition
+              ease-in-out
+              m-0
+              focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput126"
+              placeholder="Celular">
+              <span class="text-center block text-red-500 celular"></span>
+          </div>
+          
+          <button type="submit" class="
+            w-full
+            px-6
+            py-2.5
+            bg-[#45c95b]
+            text-white
+            font-medium
+            text-xs
+            leading-tight
+            uppercase
+            rounded
+            shadow-md
+            hover:bg-[#45c95b] hover:shadow-lg
+            focus:bg-[#45c95b] focus:shadow-lg focus:outline-none focus:ring-0
+            active:bg-[#45c95b] active:shadow-lg
+            transition
+            duration-150
+            ease-in-out">ENVIAR</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!--CALCULADORA-->
+
+
+
+<div class="offcanvas offcanvas-end fixed bottom-0 flex flex-col max-w-full bg-white invisible bg-clip-padding shadow-sm outline-none transition duration-300 ease-in-out text-gray-700 top-0 right-0 border-none w-96" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header flex items-center justify-between p-4">
+    <h5 class="offcanvas-title mb-0 leading-normal font-semibold" id="offcanvasRightLabel">CALCULADORA DE AHORRO</h5>
+    <button type="button" class="btn-close box-content w-4 h-4 p-2 -my-5 -mr-2 text-black border-none rounded-none opacity-50 focus:shadow-none focus:outline-none focus:opacity-100 hover:text-black hover:opacity-75 hover:no-underline" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div id="calculadora" class="offcanvas-body flex-grow p-4 overflow-y-auto">
+    <div class="flex justify-center">
+      <div class="mb-3 xl:w-96">
+        <label for="exampleFormControlInput1" class="form-label inline-block mb-2 text-gray-700"
+          >Cuota mensual (RD$):</label
+        >
+        <input
+          id="cuota"
+          type="number"
+          class="
+            form-control
+            block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            text-gray-700
+            bg-white bg-clip-padding
+            border border-solid border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            focus:text-gray-700 focus:bg-white focus:border-[#45c95b] focus:outline-none
+          "
+          id="exampleFormControlInput1"
+          placeholder="1,500"
+        />
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <div class="mb-3 xl:w-96">
+        <label for="exampleFormControlInput1" class="form-label inline-block mb-2 text-gray-700"
+          >Tiempo</label
+        >
+        <input
+        id="tiempo"
+          type="number"
+          class="
+            form-control
+            block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            text-gray-700
+            bg-white bg-clip-padding
+            border border-solid border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            focus:text-gray-700 focus:bg-white focus:border-[#45c95b] focus:outline-none
+          "
+          id="exampleFormControlInput1"
+          placeholder="24 meses"
+        />
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <div class="mb-3 xl:w-96">
+        <label for="exampleFormControlInput1" class="form-label inline-block mb-2 text-gray-700"
+          >Tasa (%)</label
+        >
+        <input
+          id="tasa"
+          type="number"
+          class="
+            form-control
+            block
+            w-full
+            px-3
+            py-1.5
+            text-base
+            font-normal
+            text-gray-700
+            bg-white bg-clip-padding
+            border border-solid border-gray-300
+            rounded
+            transition
+            ease-in-out
+            m-0
+            focus:text-gray-700 focus:bg-white focus:border-[#45c95b] focus:outline-none
+          "
+          id="exampleFormControlInput1"
+          placeholder="15%"
+        />
+      </div>
+    </div>
+    <div id="flex" class="flex space-x-2 justify-center w-full">
+      <div id="contenedor-btn" class="w-full">
+        <button id="calculadora-btn" type="button" class="inline-block px-6 py-2 border-2 border-[#45c95b] text-[#45c95b] font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-full">Calcular</button>
+      </div>
+    </div>
+    <div id="resutado-interes" class="rounded-lg py-5 px-6 mb-4 text-center text-base text-green-700">
+
+    </div>
+  </div>
+</div>
+<!--CALCULADORA-->
+
+<!--FOOTER-->
+<footer class="text-center text-white bg-[#45c95b] pt-2" >
+        <button type="button" class="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+          CALCULADORA DE INTERES
+        </button>
+      </p>
+    </div>
+  </div>
+
+  <div class="text-center p-4 bg-[#45c95b]">
+    © 2022 Copyright:
+    <a class="text-white" href="https://tailwind-elements.com/">COLMACICOOP</a>
+  </div>
+</footer>
+<!--FOOTER-->
+      
+</div>
+
+    <!--JS-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!--JS-->
+</body>
+</html>

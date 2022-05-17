@@ -1,0 +1,16 @@
+{
+  "name": "colmacicoop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i css/style.css -o dist/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.24",
+    "tw-elements": "^1.0.0-alpha12"
+  }
+}
